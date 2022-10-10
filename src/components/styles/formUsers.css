@@ -95,6 +95,7 @@
 @media(max-width:768px) {
     .form_input {
         width: 309px;
+        height: 40px;
     }
 
     .form_input2 {
