@@ -1,0 +1,129 @@
+.users_container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+.form_container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0001;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disable_form {
+  display: none;
+}
+
+.disable_delete{
+  display: none;
+}
+
+.App_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1c4f49;
+  height: 100px;
+  color: #fff;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.App_btn {
+  background-color: #5fbab0;
+  align-items: flex-end;
+  padding-left: 20px;
+  border: 1px solid #ccc9;
+  width: 300px;
+  border-radius: 8px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+
+.delete {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0001;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete_modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.delete_title {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc9;
+  color: #666666;
+}
+
+.delete_message {
+  border-top: 1px solid #ccc9;
+  border-bottom: 1px solid #ccc9;
+  margin-bottom: 20px;
+  color: #666666;
+
+}
+
+.delete_icon {
+  color: red;
+  font-size: 90px;
+  text-align: center;
+  margin: 10px;
+}
+
+.delete_button {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+}
+
+.delete_close {
+  background-color: green;
+  border: 1px solid #ccc9;
+  color: #fff;
+  padding: 7px;
+  border-radius: 8px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.delete_yes {
+  background-color: red;
+  border: 1px solid #ccc9;
+  color: #fff;
+  padding: 7px;
+  border-radius: 8px;
+  width: 60px;
+  cursor: pointer;
+}
