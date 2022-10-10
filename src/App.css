@@ -38,6 +38,7 @@
   align-items: center;
 }
 
+
 .App_btn {
   background-color: #5fbab0;
   align-items: flex-end;
@@ -53,6 +54,15 @@
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
+}
+@media(max-width:768px){
+  .App_header{
+    font-size: 10px;
+  }
+  .App_btn{
+    font-size: 15px;
+    width: 200px;
+  }
 }
 
 
